@@ -10,6 +10,7 @@ function hasTargetSum(array, target) {
     if (seenNumbers[complement]) return true;
     //   save the current number as the key on our object so we can check it later against other numbers
     seenNumbers[number]=true;
+    console.log (seenNumbers)
   }
   // if we reach the end of the array, return false.
   return false
